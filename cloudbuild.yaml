@@ -1,0 +1,5 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/dev-antler-425513-f6/python-ecom:v1', '.']
+images:
+  - 'gcr.io/dev-antler-425513-f6/python-ecom:v1'
